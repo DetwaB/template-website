@@ -1,0 +1,36 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'R. Hughes Plumbing & Heating'
+theme = 'serif'
+
+[params]
+  [params.logo]
+    desktop = "logo.png"
+    desktop_height = "90px"
+    mobile = "logo.png"
+    mobile_height = "60px"
+    alt = "R. Hughes Plumbing & Heating Logo"
+  [params.fonts]
+    google_fonts = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'
+    heading = "Inter"
+    base = "Inter"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 2
+    identifier = "services"
+  [[menu.main]]
+    name = "Terms & Services"
+    url = "/terms/"
+    weight = 3
+  [[menu.main]]
+    name = "Get in Touch"
+    url = "/contact/"
+    weight = 4
+    params = { button = true }

@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="hero-section">
+    <img src="/hero.png" alt="Hero Image" class="hero-bg" />
+    <div class="hero-overlay">
+      <div class="hero-area">CAMBRIDGE <span class="hero-sep">/</span> SUFFOLK <span class="hero-sep">/</span> HERTFORDSHIRE <span class="hero-sep">/</span> ESSEX</div>
+      <h1>Robert Hughes: Plumbing And Heating Services</h1>
+      <p class="hero-desc">We offer reliable plumbing services, from routine maintenance to urgent repairs and emergency call-outs. Trust our skilled team for prompt, professional service.</p>
+      <div class="hero-buttons">
+        <a href="#" class="hero-btn hero-btn-red"><span style="margin-right:8px;">&#128222;</span>EMERGENCY CALL OUT</a>
+        <a href="#services" class="hero-btn hero-btn-outline">SERVICES &#9662;</a>
+      </div>
+    </div>
+  </div>
+  <div class="homepage-content">
+    {{ .Content }}
+  </div>
+{{ end }} 
