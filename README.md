@@ -1,25 +1,25 @@
-# Template Website
+# Robert Hughes Website
 
-This is a template website project that can be used as a starting point for building modern web applications.
+This is my personal website repository. The website is built using HTML and CSS, featuring a clean and modern design.
 
-## Getting Started
+## Structure
 
-To get started with this project:
-
-1. Clone the repository
-2. Install dependencies (if any)
-3. Start the development server
+- `index.html` - Main webpage
+- `styles.css` - Styling for the website
 
 ## Features
 
-- Modern web design
-- Responsive layout
-- Easy to customize
+- Responsive design
+- Clean and modern layout
+- Easy navigation
+- Mobile-friendly
 
-## Contributing
+## Getting Started
 
-Feel free to contribute to this project by submitting pull requests or opening issues.
+1. Clone this repository
+2. Open `index.html` in your web browser
+3. Start customizing the content to your needs
 
 ## License
 
-This project is open source and available under the MIT License. 
+All rights reserved © 2024 Robert Hughes 
