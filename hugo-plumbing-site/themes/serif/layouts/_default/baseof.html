@@ -55,8 +55,6 @@
     {{ $scripts = $scripts | minify | fingerprint }}
   {{ end }}
   <script type="text/javascript" src="{{ $scripts.RelPermalink }}"></script>
-
-  {{ partial "google-analytics.html" . }}
 </body>
 
 </html>
